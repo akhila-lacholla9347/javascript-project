@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havells Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+
+    .login-container{
+
+    width:350px;
+
+    margin:80px auto;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+
+    text-align:center;
+
+}
+
+.login-container h1{
+
+    color:#d71920;
+
+}
+
+.login-container input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:12px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+    box-sizing:border-box;
+
+}
+
+.login-container button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#d71920;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.login-container button:hover{
+
+    background:#b51218;
+
+}
+
+.login-container a{
+
+    color:#d71920;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+    </style>
+<div class="login-container">
+
+    <h1>Havells</h1>
+    <h2>Login</h2>
+
+    <form id="loginForm">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter Email"
+            required
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            required
+        >
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+    <p>
+        Don't have an account?
+        <a href="signup.html">Sign Up</a>
+    </p>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>

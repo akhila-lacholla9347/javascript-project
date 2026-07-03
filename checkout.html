@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    
+</head>
+<body>
+    <style>
+
+        .checkout-container{
+
+display:flex;
+
+justify-content:space-around;
+
+padding:50px;
+
+}
+
+.address{
+
+width:40%;
+
+}
+
+.address input,
+.address textarea{
+
+width:100%;
+
+padding:12px;
+
+margin-top:10px;
+
+}
+
+.order-summary{
+
+width:35%;
+
+border:1px solid #ddd;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+#placeOrder{
+
+padding:15px 30px;
+
+background:red;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+margin-top:20px;
+
+}
+
+
+
+.payment-method{
+    width:500px;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    border:2px solid rgb(121, 113, 113);
+}
+
+.payment-option{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;   
+    margin:25px 0;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.payment-option input[type="radio"]{
+    width:22px;
+    height:22px;
+    accent-color:#e31837;
+}
+        </style>
+
+<h1 style="text-align:center">Checkout</h1>
+
+<div class="checkout-container">
+
+    <div class="address">
+
+        <h2>Shipping Address</h2>
+
+        <input type="text" id="name" placeholder="Full Name"><br><br>
+
+        <input type="text" id="phone" placeholder="Phone Number"><br><br>
+
+        <textarea id="address" placeholder="Address"></textarea><br><br>
+
+
+        <!--<h2>Payment Method</h2>
+
+       <div class="payment-method">
+
+        <label>
+        <input type="radio" name="payment" value="Cash on Delivery" checked>
+        Cash on Delivery (COD)
+        </label>
+
+        <label>
+        <input type="radio" name="payment" value="UPI">
+        UPI
+        </label>
+
+          <label>
+        <input type="radio" name="payment" value="Credit / Debit Card">
+        Credit / Debit Card
+        </label>
+
+     </div>-->
+     
+     <div class="payment-method">
+
+        <h2>Payment Method</h2>
+    <label class="payment-option">
+        <span>Cash on Delivery (COD)</span>
+        <input type="radio" name="payment">
+    </label>
+
+    <label class="payment-option">
+        <span>UPI</span>
+        <input type="radio" name="payment">
+    </label>
+
+    <label class="payment-option">
+        <span>Credit / Debit Card</span>
+        <input type="radio" name="payment">
+    </label>
+
+</div>
+
+
+
+        <button id="placeOrder">Place Order</button>
+
+    </div>
+
+    <div class="order-summary">
+
+        <h2>Order Summary</h2>
+
+        <img id="productImage" width="200">
+
+        <h3 id="productName"></h3>
+
+        <h2 id="productPrice"></h2>
+
+    </div>
+
+</div>
+
+<script src="checkout.js"></script>
+
+</body>
+</html>

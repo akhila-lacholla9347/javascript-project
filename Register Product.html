@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="folder.css">
+     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<style>
+/* Registration Form Container */
+
+.registration-container{
+    width:80%;
+    margin:50px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+/* Heading */
+
+.registration-container h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#d71920;
+}
+
+/* Form Grid */
+
+#registrationForm{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+/* Full Width Fields */
+
+.full-width{
+    grid-column:1/3;
+}
+
+/* Inputs */
+
+#registrationForm input,
+#registrationForm select,
+#registrationForm textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+/* Textarea */
+
+#registrationForm textarea{
+    height:100px;
+    resize:none;
+}
+
+/* Checkbox */
+
+.checkbox{
+    grid-column:1/3;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+/* Button */
+
+#registrationForm button{
+    grid-column:1/3;
+    padding:14px;
+    background:#e31e24;
+    color:#fff;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#registrationForm button:hover{
+    background:#b80000;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+}
+
+.terms input{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.terms label{
+    white-space: nowrap;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    
+}
+
+
+    </style>
+
+</head>
+<body>
+<header class="header">
+<div class="top-bar">
+<a href="Home.html"><img src="https://havells.com/media/logo/stores/1/Havells_Logo.svg"height="120px"width="120px"></a>
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Search Products">
+<svg class="search-icon" viewBox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>  
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+</div>
+
+
+
+
+</div>
+</div>
+<nav class="nav-bar">
+<a href="New Products.html">New Products</a>
+<a href="Best Seller.html">Best Seller</a>
+<a href="Register Product.html">Register Product</a>
+<a href="Buy AMC.html">Buy AMC</a>
+<a href="Loyalty.html">Loyalty</a>
+
+
+
+<a href="cart.html" class="icon-cart-icon"title="Shopping-Cart">🛒
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span id="cartCount">0</span>
+</a>
+
+<a href="login.html" class="icon-user-icon"title="Login">👤</a> 
+<a href="wishlist.html">❤️ Wishlist</a>
+
+</nav>
+</header>
+<div class="page">
+<div class="breadcrumb">
+<a href="Home.html"> Home ></a>
+<span class="current">Engagement product details</span>
+</div>
+<div class="img-container">
+<img src="./images/WhatsApp Image 2026-06-30 at 3.49.49 PM.jpeg">
+
+<section class="main-section">
+
+    <div class="container">
+
+        
+        <div class="left-content">
+
+        
+            <div class="register-card">
+                <h2>Why Should I Register?</h2>
+
+                <div class="item">Activate warranty</div>
+                <div class="item">Avail service & support</div>
+                <div class="item">Enjoy loyalty benefits</div>
+                <div class="item">Access user manual, product updates</div>
+            </div><br><br><br><br><br>
+
+            
+            <div class="register-card">
+                <h2>Havells Happiness</h2>
+                <p>A One-of-a-Kind Loyalty Program</p>
+                    <div class="item">Up to 3% tokens (1 token = ₹1)</div>
+                    <div class="item">Priority service</div>
+                    <div class="item">eVouchers worth up to ₹1K</div>
+                <div class="item">free delivery</div>
+                
+            </div>
+
+        </div>
+
+        
+        <div class="right-content">
+            <img src="./images/WhatsApp Image 2026-06-30 at 4.45.52 PM.jpeg">
+            <img src="./images/WhatsApp Image 2026-06-30 at 4.47.25 PM.jpeg">
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+
+
+<form id="registrationForm">
+
+<input type="text" id="customerName" placeholder="Customer Name">
+
+<input type="text" id="mobile" placeholder="Mobile Number">
+
+<input type="email" id="email" placeholder="Email Address">
+
+<select id="category">
+    <option value="">Select Category</option>
+    <option>Lighting</option>
+    <option>Fans</option>
+    <option>Kitchen Appliances</option>
+    <option>Water Heater</option>
+</select>
+
+<input type="text" id="productName" placeholder="Product Name">
+
+<input type="text" id="serialNumber" placeholder="Serial Number">
+
+<input type="date" id="purchaseDate">
+
+<input type="text" id="invoiceNumber" placeholder="Invoice Number">
+
+<input type="file" id="invoice">
+
+<input type="text" id="state" placeholder="State">
+
+<input type="text" id="city" placeholder="Address">
+
+<input type="text" id="pincode" placeholder="Pincode">
+
+<div class="terms">
+    <input type="checkbox" id="terms">
+
+    <label for="terms">
+        I Agree to Warranty Terms
+    </label>
+</div>
+
+
+<button type="submit">
+
+Register Product
+
+</button>
+
+</form>
+
+<script>
+const form=document.getElementById("registrationForm");
+
+form.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+const customerName=document.getElementById("customerName").value.trim();
+const mobile=document.getElementById("mobile").value.trim();
+const email=document.getElementById("email").value.trim();
+const category=document.getElementById("category").value;
+const productName=document.getElementById("productName").value.trim();
+const serialNumber=document.getElementById("serialNumber").value.trim();
+const purchaseDate=document.getElementById("purchaseDate").value;
+const invoiceNumber=document.getElementById("invoiceNumber").value.trim();
+const state=document.getElementById("state").value.trim();
+const city=document.getElementById("city").value.trim();
+
+const pincode=document.getElementById("pincode").value.trim();
+const agree=document.getElementById("terms").checked;
+
+if(customerName==""){
+alert("Enter Customer Name");
+return;
+}
+
+if(!/^[0-9]{10}$/.test(mobile)){
+alert("Enter Valid Mobile Number");
+return;
+}
+
+if(!email.includes("@")){
+alert("Enter Valid Email");
+return;
+}
+
+if(category==""){
+alert("Select Category");
+return;
+}
+
+if(!agree){
+alert("Accept Warranty Terms");
+return;
+}
+
+const product={
+
+customerName,
+mobile,
+email,
+category,
+productName,
+serialNumber,
+purchaseDate,
+invoiceNumber,
+state,
+city,
+pincode
+
+};
+
+let registrations=
+JSON.parse(localStorage.getItem("registrations"))||[];
+
+registrations.push(product);
+
+localStorage.setItem("registrations",JSON.stringify(registrations));
+
+alert("Product Registered Successfully");
+
+form.reset();
+
+});
+
+    </script>
+
+
+    <link rel="stylesheet"href="reg.css">
+
+<div class="registered-link">
+    <a href="reg.html"> View Registered Products</a>
+    <script src="navbar.js"></script>
+    </div>
+
+</body>
+
+
+    

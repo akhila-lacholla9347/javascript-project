@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "badge": "Best Seller",
+    "name": "Ceiling Fan Stellar 1200mm",
+    "subtitle": "Energy Saving",
+    "category": "Fans",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpi5ssbw48_base_1.jpg",
+    "price": 2499,
+    "mrp": 3199,
+    "discount": 22,
+    "rating": 4.8,
+    "reviews": 142,
+    "features": [
+      "1200mm Sweep",
+      "Copper Motor",
+      "High Air Delivery"
+    ]
+  },
+  {
+    "id": 2,
+    "badge": "New",
+    "name": "Decorative Ceiling Fan",
+    "subtitle": "Premium Finish",
+    "category": "Fans",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfee1gmi48_2__1.jpg",
+    "price": 3499,
+    "mrp": 4299,
+    "discount": 19,
+    "rating": 4.7,
+    "reviews": 85,
+    "features": [
+      "Silent Operation",
+      "Remote Control",
+      "BLDC Motor"
+    ]
+  },
+  {
+    "id": 3,
+    "badge": "Hot",
+    "name": "Max LED Lamp",
+    "subtitle": "Cool Day Light",
+    "category": "Lighting",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/l/r/lrldbeeaml8r015.jpg",
+    "price": 149,
+    "mrp": 199,
+    "discount": 25,
+    "rating": 4.6,
+    "reviews": 235,
+    "features": [
+      "9W",
+      "50,000 Hours",
+      "Energy Efficient"
+    ]
+  },
+  {
+    "id": 4,
+    "badge": "Best Seller",
+    "name": "LED Panel Light 18W",
+    "subtitle": "Slim Design",
+    "category": "Lighting",
+    "image":"https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/l/blaze_recess_rd_9.jpg",
+    "price": 899,
+    "mrp": 1199,
+    "discount": 25,
+    "rating": 4.8,
+    "reviews": 102,
+    "features": [
+      "18W",
+      "Bright White",
+      "Low Heat"
+    ]
+  },
+  {
+    "id": 5,
+    "badge": "Sale",
+    "name": "Tube Light 20W",
+    "subtitle": "LED Batten",
+    "category": "Lighting",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/1/_/1_w_base_1__1.jpg",
+    "price": 499,
+    "mrp": 649,
+    "discount": 23,
+    "rating": 4.5,
+    "reviews": 71,
+    "features": [
+      "20W",
+      "Instant Glow",
+      "Long Life"
+    ]
+  },
+  {
+    "id": 6,
+    "badge": "New",
+    "name": "Water Heater 15L",
+    "subtitle": "Storage Geyser",
+    "category": "Water Heaters",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/r/breaa_b_1.jpg",
+    "price": 7499,
+    "mrp": 8999,
+    "discount": 17,
+    "rating": 4.7,
+    "reviews": 89,
+    "features": [
+      "15L",
+      "Glass Coated Tank",
+      "Fast Heating"
+    ]
+  },
+  {
+    "id": 7,
+    "badge": "New",
+    "name": "Instant Water Heater",
+    "subtitle": "3L Capacity",
+    "category": "Water Heaters",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghwvcpuwcw05_b_1.jpg",
+    "price": 4599,
+    "mrp": 5499,
+    "discount": 16,
+    "rating": 4.4,
+    "reviews": 45,
+    "features": [
+      "3L",
+      "Instant Heating",
+      "Shock Safe"
+    ]
+  },
+  {
+    "id": 8,
+    "badge": "Best Seller",
+    "name": "Modular Switch",
+    "subtitle": "6A Switch",
+    "category": "Switches",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/Switches/AHCSDIW321.jpg",
+    "price": 85,
+    "mrp": 99,
+    "discount": 14,
+    "rating": 4.8,
+    "reviews": 221,
+    "features": [
+      "Fire Resistant",
+      "Premium Finish",
+      "ISI Certified"
+    ]
+  },
+  {
+    "id": 9,
+    "badge": "Sale",
+    "name": "16A Socket",
+    "subtitle": "Modular Socket",
+    "category": "Switches",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/6/-/6-16_white.jpg",
+    "price": 180,
+    "mrp": 220,
+    "discount": 18,
+    "rating": 4.6,
+    "reviews": 76,
+    "features": [
+      "16A",
+      "Shock Proof",
+      "Easy Installation"
+    ]
+  },
+  {
+    "id": 10,
+    "badge": "New",
+    "name": "MCB 32A",
+    "subtitle": "Single Pole",
+    "category": "Circuit Protection",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/REO-Switches/DHGNCSPA01000MR.jpg",
+    "price": 320,
+    "mrp": 399,
+    "discount": 20,
+    "rating": 4.8,
+    "reviews": 144,
+    "features": [
+      "32A",
+      "High Protection",
+      "ISI Certified"
+    ]
+  },
+  {
+    "id": 11,
+    "badge": "New",
+    "name": "RCCB 40A",
+    "subtitle": "Double Pole",
+    "category": "Circuit Protection",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/p/fp_rccb_euro2_d7_b_10.jpg",
+    "price": 1599,
+    "mrp": 1999,
+    "discount": 20,
+    "rating": 4.7,
+    "reviews": 68,
+    "features": [
+      "40A",
+      "Earth Leakage Protection",
+      "Quick Trip"
+    ]
+  },
+  {
+    "id": 12,
+    "badge":"New",
+    "name": "PVC Wire 1.5 sq.mm",
+    "subtitle": "90 Meter Coil",
+    "category": "Wires",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/w/h/whmfdskb32x5_4__3.jpg",
+    "price": 1350,
+    "mrp": 1599,
+    "discount": 16,
+    "rating": 4.8,
+    "reviews": 59,
+    "features": [
+      "FR Cable",
+      "Copper",
+      "Heat Resistant"
+    ]
+  },
+  {
+    "id": 13,
+    "badge": "New",
+    "name": "PVC Wire 2.5 sq.mm",
+    "subtitle": "90 Meter Coil",
+    "category": "Wires",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/flexible_cables/life_guard/90m/blue.jpg",
+    "price": 2150,
+    "mrp": 2499,
+    "discount": 14,
+    "rating": 4.7,
+    "reviews": 51,
+    "features": [
+      "Copper",
+      "FRLS",
+      "Long Life"
+    ]
+  },
+  {
+    "id": 14,
+    "badge": "New",
+    "name": "Extension Board",
+    "subtitle": "4 Socket",
+    "category": "Accessories",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/Switches/AHLKLCW064.jpg",
+    "price": 599,
+    "mrp": 799,
+    "discount": 25,
+    "rating": 4.6,
+    "reviews": 94,
+    "features": [
+      "4 Sockets",
+      "Surge Protection",
+      "Master Switch"
+    ]
+  },
+  {
+    "id": 15,
+    "badge": "New",
+    "name": "Spike Guard",
+    "subtitle": "6 Socket",
+    "category": "Accessories",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/a/h/ahekxxb061.png",
+    "price": 899,
+    "mrp": 1099,
+    "discount": 18,
+    "rating": 4.7,
+    "reviews": 57,
+    "features": [
+      "6 Sockets",
+      "Child Safety",
+      "Power Indicator"
+    ]
+  },
+  {
+    "id": 16,
+    "badge": "New",
+    "name": "Mixer Grinder",
+    "subtitle": "750W",
+    "category": "Kitchen Appliances",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghfjmbub050le_base.jpg",
+    "price": 3499,
+    "mrp": 4499,
+    "discount": 22,
+    "rating": 4.6,
+    "reviews": 123,
+    "features": [
+      "3 Jars",
+      "Copper Motor",
+      "750W"
+    ]
+  },
+  {
+    "id": 17,
+    "badge": "New",
+    "name": "Electric Kettle",
+    "subtitle": "1.8L",
+    "category": "Kitchen Appliances",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghbktbcb160.jpg",
+    "price": 1499,
+    "mrp": 1899,
+    "discount": 21,
+    "rating": 4.5,
+    "reviews": 88,
+    "features": [
+      "Auto Cut-off",
+      "Stainless Steel",
+      "1.8L"
+    ]
+  },
+  {
+    "id": 18,
+    "badge": "New",
+    "name": "Dry Iron",
+    "subtitle": "1000W",
+    "category": "Home Appliances",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghgdiemk125_1.jpg",
+    "price": 899,
+    "mrp": 1299,
+    "discount": 31,
+    "rating": 4.3,
+    "reviews": 62,
+    "features": [
+      "Non-stick Soleplate",
+      "Temperature Control",
+      "1000W"
+    ]
+  },
+  {
+    "id": 19,
+    "badge": "New",
+    "name": "Steam Iron",
+    "subtitle": "1200W",
+    "category": "Home Appliances",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghgsiejb200_1__1.jpg",
+    "price": 1299,
+    "mrp": 1999,
+    "discount": 35,
+    "rating": 4.2,
+    "reviews": 7,
+    "features": [
+      "Non Stick Soleplate",
+      "Steam Burst",
+      "Temperature Control"
+    ]
+  },
+  {
+    "id": 20,
+    "badge": "New",
+    "name": "Air Purifier AP500",
+    "subtitle": "Smart Purification",
+    "category": "Air Purifier",
+    "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghrapere048_3__1.jpg",
+    "price": 17999,
+    "mrp": 24999,
+    "discount": 28,
+    "rating": 4.7,
+    "reviews": 16,
+    "features": [
+      "HEPA Filter",
+      "PM2.5 Display",
+      "Smart Control"
+    ]
+  }
+]

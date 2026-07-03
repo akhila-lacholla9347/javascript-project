@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    
+</head>
+<body>
+<style>
+.cart-card{
+
+    width:80%;
+
+    margin:20px auto;
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:center;
+
+    border:1px solid #ddd;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    background:white;
+
+}
+
+.cart-card img{
+
+    width:180px;
+
+    height:180px;
+
+    object-fit:contain;
+
+}
+
+.cart-card button{
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    background:red;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+.quantity{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:15px 0;
+}
+
+.quantity button{
+    width:35px;
+    height:35px;
+    border:none;
+    background:#d32f2f;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.quantity span{
+    font-size:20px;
+    font-weight:bold;
+}
+
+    </style>
+<h1 style="text-align:center;">My Cart</h1>
+
+<div id="cartContainer"></div>
+
+<h2 style="text-align:center;margin-top:20px;">
+    Total : ₹ <span id="totalPrice">0</span>
+</h2>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
