@@ -1,50 +1,4 @@
-/*const params = new URLSearchParams(window.location.search);
 
-const id = params.get("id");
-
-
-fetch("products.json")
-.then(response => response.json())
-
-let product;
-
-fetch("products.json")
-.then(response => response.json())
-.then(products => {
-
-    product = products.find(p => p.id == id);
-
-    // Display the product details here
-
-
-    document.getElementById("productImage").src = product.image;
-
-    document.getElementById("productName").innerHTML = product.name;
-
-    document.getElementById("productSubtitle").innerHTML = product.subtitle;
-
-    document.getElementById("productPrice").innerHTML = "₹" + product.price;
-
-    document.getElementById("productMrp").innerHTML = "₹" + product.mrp;
-
-    document.getElementById("productDiscount").innerHTML = product.discount + "% OFF";
-
-    document.getElementById("productRating").innerHTML =
-        "⭐ " + product.rating + " (" + product.reviews + " Reviews)";
-
-    const featureList = document.getElementById("productFeatures");
-
-    product.features.forEach(feature => {
-
-        const li = document.createElement("li");
-
-        li.innerHTML = feature;
-
-        featureList.appendChild(li);
-
-    });
-
-});*/
 
 const params = new URLSearchParams(window.location.search);
 
@@ -94,43 +48,6 @@ console.log("Found Product:", product);
 
 
 
-// Add To Cart
-/*document.getElementById("cartBtn").addEventListener("click", function () {
-
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-    cart.push(product);
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    //alert("Product Added to Cart");
-    window.location.href="cart.html";
-
-});
-
-
-
-document.getElementById("cartBtn").addEventListener("click", function () {
-
-    
-
-    if (!product) {
-        alert("Product not loaded yet!");
-        return;
-    }
-
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-    cart.push(product);
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    console.log("Updated Cart:", cart);
-
-    window.location.href = "cart.html";
-});*/
-
-
 
 document.getElementById("cartBtn").addEventListener("click", function () {
 
@@ -157,12 +74,6 @@ document.getElementById("cartBtn").addEventListener("click", function () {
     window.location.href = "cart.html";
 
 });
-
-
-
-
-
-
 
 
 // Buy Now
